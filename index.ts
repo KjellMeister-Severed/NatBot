@@ -1,6 +1,6 @@
 import DiscordJS, { Intents } from 'discord.js';
 import dotenv from 'dotenv';
-import {rolldice} from './functions'
+import {rolldice} from './logic/rolls'
 dotenv.config()
 
 const client = new DiscordJS.Client({
